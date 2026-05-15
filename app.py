@@ -30,7 +30,7 @@ def fix_transcript(raw_text):
             "Content-Type": "application/json",
         },
         json={
-            "model": "inclusion/ring-2.6-1t:free",
+            "model": "inclusionai/ring-2.6-1t:free",
             "messages": [
                 {
                     "role": "system",
